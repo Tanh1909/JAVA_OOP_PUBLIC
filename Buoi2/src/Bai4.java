@@ -5,8 +5,10 @@ public class Bai4 {
 		double delta = b * b - 4 * a * c;
 		double x1, x2;
 		if (delta >= 0) {
+			System.out.println("denta>=0");
 			x1 = (-b + Math.sqrt(delta)) / (2 * a);
 			x2 = (-b - Math.sqrt(delta)) / (2 * a);
+			System.out.println(x1+" "+x2);
 			if (x1 > 0) {
 				System.out.println("x1: " + Math.sqrt(x1));
 				System.out.println("x2: " + Math.sqrt(x1) * -1);
@@ -16,6 +18,7 @@ public class Bai4 {
 				System.out.println("x4: " + Math.sqrt(x2) * -1);
 			}
 		} else {
+			System.out.println("denta<0");
 			System.out.println("PHUONG TRINH VO NGHIEM!");
 		}
 	}
@@ -29,6 +32,7 @@ public class Bai4 {
 		System.out.print("NHAP SO THUC c: ");
 		double c = sc.nextDouble();
 		giaiPT(a, b, c);
+		System.out.println("ket thuc chuong trinh");
 	}
 
 }
