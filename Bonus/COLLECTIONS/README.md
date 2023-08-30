@@ -1,4 +1,38 @@
 # COLLECTIONS TRONG JAVA ( note: cần bổ sung thêm về cách truy xuất và cách khai báo)
+## Phần 1. Tìm hiểu về Java Collections Framework
+
+---
+
+Java Collections Framework cung cấp một tập hợp các interfaces (giao diện) và class (lớp) để triển khai các cấu trúc dữ liệu và thuật toán khác nhau.
+
+Java Collection framework cung cấp nhiều interfaces (Set, List, Queue, Deque) và nhiều lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+Ví dụ, class LinkedList của Collections Framework cung cấp một tập hợp các interfaces để triển khai cấu trúc dữ liệu danh sách được liên kết kép.
+
+### Collection trong Java là gì?
+Collection trong Java là một framework cung cấp kiến trúc để lưu trữ và thao tác một nhóm các đối tượng nhất định.
+
+Java Collection có thể thực hiện được tất cả các hoạt động mà bạn có thể thực hiện trên dữ liệu, chẳng hạn như tìm kiếm, sắp xếp, chèn, thao tác và xóa.
+
+Java Collection đại diện một đơn vị đối tượng riêng lẻ, chẳng hạn như nhóm
+
+### Framework trong Java là gì?
+Framework trong Java có các đặc tính dưới đây:
+
+Cung cấp kiến trúc được làm sẵn
+Đại diện cho một tập hợp các class và interface.
+Mang tính tùy chọn
+Collection framework là gì?
+Collection framework đại diện cho một kiến trúc thống nhất để lưu trữ và thao tác một nhóm đối tượng. Nó có:
+
+Interface và các cách triển khai của nó, chính xác là các lớp (class)
+Thuật toán
+Collections Framework với Collection Interface
+Không ít người thường bị nhầm lẫn giữa Collections Framework và Collection Interface.
+
+Collection Interface là interface gốc của collections framework.
+
+Framework bao gồm nhiều interface như: Map và Iterator. Các interface này cũng có thể có các Subinterface (interface con).
 ## LIST
 ### ARRAYLIST
 > Lớp ArrayList sử dụng một mảng động để lưu trữ các phần tử. Nó kế thừa lớp AbstractList và implement interface List.

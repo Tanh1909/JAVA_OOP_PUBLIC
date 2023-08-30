@@ -47,4 +47,34 @@ Qua những phân tích trên, GET và POST nên được sử dụng như sau:
 
 ---
 
+### SERVLET
 
+- java servlet là bộ thư viện đầu tiên hỗ trợ chúng ta viết websites
+
+- mọi framework hay jsp đều biên dịch về servlet và chạy trên máy ảo jvm
+
+- hỗ trợ nhiều interface và class trong lập trình web
+
+#### Điểm mạnh Servlet
+
+- Hiệu suất tốt: dùng thread cho mỗi request
+
+- Linh động: ngôn ngữ java
+
+- Mạnh mexL JVM quản lý bộ nhớ, xóa rác
+
+- bảo mật: bảo mật của java
+
+##### TOMCAT
+
+> là 1 server hỗ trợ chạy các java servlet
+
+#### CHU KÌ SERVLET VÀ VÍ DỤ
+
+- Servlet là cách gọi tắt của 1 đối tượng trong bộ nhớ heap
+
+- Chu kì sống của servlet được bắt đầu khi ta tạo 1 đối tượng servlet mới. Khi chúng ta tạo 1 đối tượng servlet mới thì hàm init() được gọi. Khi đối tượng này bị xóa đi thì sẽ gọi hàm destroy();
+
+- khi đối tượng này tồn tại trong bộ nhớ heap thì sẽ có hàm service và hàm này sẽ đón nhận các request từ client gửi lên và trả về response
+
+[tài liệu tham khảo](https://www.youtube.com/watch?v=I-OjMUFw0_0&list=PLsfLgp1K1xQ53rzo7vo2dKamBu0bj7lkv&index=3)
