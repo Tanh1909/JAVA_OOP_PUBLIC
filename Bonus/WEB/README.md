@@ -78,3 +78,4 @@ Qua những phân tích trên, GET và POST nên được sử dụng như sau:
 - khi đối tượng này tồn tại trong bộ nhớ heap thì sẽ có hàm service và hàm này sẽ đón nhận các request từ client gửi lên và trả về response
 
 [tài liệu tham khảo](https://www.youtube.com/watch?v=I-OjMUFw0_0&list=PLsfLgp1K1xQ53rzo7vo2dKamBu0bj7lkv&index=3)
+
