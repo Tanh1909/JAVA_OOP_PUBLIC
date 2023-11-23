@@ -36,4 +36,3 @@ JPA Java Persistence API cung cấp các đặc tả dùng để duy trì và qu
 # Persistence Context và Entity Manager
 - Persistence Context là 1 tập các thể hiện của entity được quản lý, tồn tại trong 1 kho dữ liệu
 - Entity Manager => khai báo các phương thức để tương tác với các Persistence Context.
-    
